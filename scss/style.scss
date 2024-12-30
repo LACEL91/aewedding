@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
 
-$primary: #E47A2E;
+$primary: #000;
 $secondary: #EDF5F7;
 $light: #FFFFFF;
 $dark: #121F38;
@@ -24,6 +24,19 @@ $enable-rounded: false;
 $border-width: 2px;
 
 @import "bootstrap/scss/bootstrap";
+
+.button {
+    background-color: gray;
+    color: white;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.text-icon {
+    color: #E47A2E;
+}
 
 
 /********** Template CSS ************/

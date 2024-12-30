@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -29,33 +29,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="font-secondary text-white mb-n2">Andrea <span class="text-primary">&</span> Efraín</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">Nosotros</a>
-                <a href="#story" class="nav-item nav-link">Story</a>
-                <a href="#gallery" class="nav-item nav-link">Gallery</a>
-            </div>
-            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                <h1 class="font-secondary text-white mb-n2">Andrea <span class="text-primary">&</span> Efraín</h1>
-            </a>
-            <div class="navbar-nav mr-auto py-0">
-                <a href="#family" class="nav-item nav-link">Family</a>
-                <a href="#event" class="nav-item nav-link">Event</a>
-                <a href="#rsvp" class="nav-item nav-link">RSVP</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
 
 
     <!-- Carousel Start -->
@@ -115,12 +88,12 @@
                 </div>
             </div>
             <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                <div class="btn px-0" style="width: 68px; height: 68px;">
                     <span class="carousel-control-prev-icon mt-3"></span>
                 </div>
             </a>
             <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
-                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                <div class="btn px-0" style="width: 68px; height: 68px;">
                     <span class="carousel-control-next-icon mt-3"></span>
                 </div>
             </a>
@@ -133,14 +106,21 @@
     <div class="container-fluid" id="about" style="background: linear-gradient(to bottom, #fef3e6, #ffffff);">
         <div class="container py-5">
             <div class="section-title position-relative text-center" data-aos="fade-up">
-                <h1 class="font-secondary display-3">Los novios</h1>
+                <h1 class="font-secondary display-3">
+                    <img src="img/arreglo_floral.png" style="width: 80%;" alt="Nuestra boda">
+                </h1>
+                <h1 class="font-secondary display-3">¡Nos Casamos!</h1>
+                <p class="font-italic text-muted mt-3" style="font-size: 1.5rem;">
+                    <i class="far fa-calendar-alt mr-2"></i> 01 de marzo del 2025
+                </p>
                 <i class="far fa-heart text-dark"></i>
             </div>
+            
 
             <!-- Novios Section -->
             <div class="row align-items-center py-5">
                 <div class="col-lg-6 text-center">
-                    <img src="img/novios.jpg" class="img-fluid rounded-circle shadow" alt="Novia y Novio">
+                    <img src="img/novios.jpeg" class="img-fluid rounded-circle shadow" alt="Novia y Novio">
                 </div>
                 <div class="col-lg-6 mt-4" data-aos="fade-left">
                     <h2 class="font-secondary">Nuestra Historia</h2>
@@ -158,12 +138,12 @@
 
             <div class="row text-center">
                 <!-- Mamá Novia -->
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in">
-                    <div class="card border-0 shadow">
-                        <div class="card-header">
+                <div class="col-md-6 col-lg-3 py-4" data-aos="zoom-in">
+                    <div>
+                        <div>
                             <h5 class="card-title mb-0 text-muted">Mamá de la Novia</h5>
                         </div>
-                        <div class="card-body">
+                        <div>
                             <h2 class="font-secondary font-weight-normal text-muted pt-4">
                                 Guadalupe García Gómez
                             </h2>
@@ -171,27 +151,31 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Papá Novia -->
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="card border-0 shadow">
-                        <div class="card-header">
+                <div class="col-md-6 col-lg-3 py-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div>
+                        <div>
                             <h5 class="card-title mb-0 text-muted">Papá de la Novia</h5>
                         </div>
-                        <div class="card-body">
-                            <h2 class="font-secondary font-weight-normal text-muted pt-4">
+                        <div>
+                            <h2 class="font-secondary font-weight-normal text-muted pt-4 align-middle d-flex justify-content-center">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-cross"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 21h4v-9h5v-4h-5v-5h-4v5h-5v4h5z" /></svg>
                                 David Luna Castro
                             </h2>
+                            
                             <!-- <p class="card-text">Una mujer increíble que nos ha guiado con amor.</p> -->
                         </div>
                     </div>
                 </div>
+
                 <!-- Mamá Novio -->
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="card border-0 shadow">
-                        <div class="card-header">
+                <div class="col-md-6 col-lg-3 py-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div>
+                        <div>
                             <h5 class="card-title mb-0 text-muted">Mamá del Novio</h5>
                         </div>
-                        <div class="card-body">
+                        <div>
                             <h2 class="font-secondary font-weight-normal text-muted pt-4">
                                 Ma. Dolores Cárdenas González
                             </h2>
@@ -199,13 +183,14 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Papá Novio -->
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="card border-0 shadow">
-                        <div class="card-header">
+                <div class="col-md-6 col-lg-3 py-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div>
+                        <div>
                             <h5 class="card-title mb-0 text-muted">Papá del Novio</h5>
                         </div>
-                        <div class="card-body">
+                        <div>
                             <h2 class="font-secondary font-weight-normal text-muted pt-4">
                                 Armando Llagas Flóres
                             </h2>
@@ -228,34 +213,32 @@
             <div class="row">
                 <!-- Información del evento -->
                 <div class="col-lg-6 mb-4" data-aos="fade-right">
-                    <h2 class="font-secondary mb-4">Parroquia</h2>
-                    <p><i class="far fa-clock text-primary"></i> Hora: 4:00 PM</p>
-                    <p><i class="fas fa-map-marker-alt text-primary"></i> Dirección: Calle Falsa #123, Ciudad, País</p>
-                    <p>La ceremonia religiosa se llevará a cabo en una hermosa parroquia donde celebraremos nuestro amor con nuestros seres queridos.</p>
+                    <h2 class="font-secondary mb-4">Ceremonia Religiosa</h2>
+                    <p>La ceremonia se llevará a cabo en la <b>Parroquia de San Miguel Arcángel</b></p>
+                    <p><i class="far fa-clock text-icon mr-2"></i> Hora: 06:30 PM</p>
+                    <p><i class="fas fa-map-marker-alt text-icon mr-2"></i> Dirección: Juárez 21, 24630 San Miguel Cuyutlán, Jal.</p>
+                    <p>Te agradecemos que llegues unos minutos antes para disfrutar juntos cada detalle</p>
                 </div>
                 <div class="col-lg-6 mb-4" data-aos="fade-left">
                     <!-- Google Maps Parroquia -->
                     <div class="embed-responsive embed-responsive-16by9 shadow-sm rounded">
-                        <iframe class="embed-responsive-item" 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799033634!2d-74.25986768771762!3d40.697670067569944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6c1c59c7f21%3A0x9dcf0b7a6c1bcb21!2sCity+Hall!5e0!3m2!1sen!2sus!4v1670939394461!5m2!1sen!2sus"
-                            allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.1680395409194!2d-103.39109739999999!3d20.417165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f504f896ad41b%3A0x2ff8b58503ef144a!2sParroquia%20de%20San%20Miguel%20Arc%C3%A1ngel!5e0!3m2!1ses-419!2smx!4v1735431689789!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <!-- Información del salón -->
                 <div class="col-lg-6 mb-4 order-lg-2" data-aos="fade-left">
-                    <h2 class="font-secondary mb-4">Salón de Eventos</h2>
-                    <p><i class="far fa-clock text-primary"></i> Hora: 6:00 PM</p>
-                    <p><i class="fas fa-map-marker-alt text-primary"></i> Dirección: Avenida Siempre Viva #456, Ciudad, País</p>
-                    <p>El festejo continuará en un salón especial, donde disfrutaremos de música, comida y momentos inolvidables.</p>
+                    <h2 class="font-secondary mb-4">Celebración</h2>
+                    <p>Nos complace invitarte a formar parte de nuestra celebración, que tendrá lugar en el <b>Jardín Luciérnagas</b> en <b>Hacienda Del Ciprés</b>.</p>
+                    <p><i class="far fa-clock text-icon mr-2"></i> Hora: 08:30 PM</p>
+                    <p><i class="fas fa-map-marker-alt text-icon mr-2"></i> Dirección: Valle de Sta. Cruz 9, Valle de Santa Cruz, 45640 Santa Cruz de las Flores, Jal.</p>
+                    <p>Te sugerimos optar por tacones de base cuadrada, ya que el evento se llevará a cabo en jardín.</p>
                 </div>
                 <div class="col-lg-6 mb-4 order-lg-1" data-aos="fade-right">
                     <!-- Google Maps Salón -->
                     <div class="embed-responsive embed-responsive-16by9 shadow-sm rounded">
-                        <iframe class="embed-responsive-item" 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799033634!2d-74.25986768771762!3d40.697670067569944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6c1c59c7f21%3A0x9dcf0b7a6c1bcb21!2sCity+Hall!5e0!3m2!1sen!2sus!4v1670939394461!5m2!1sen!2sus"
-                            allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.947270345876!2d-103.50584559045943!3d20.46735880674721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f55d60d46252f%3A0xbc42889fbcfeb470!2sHacienda%20del%20Cipres!5e0!3m2!1ses-419!2smx!4v1735432946724!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -272,20 +255,21 @@
                 <i class="fas fa-gift text-primary"></i>
             </div>
             <p class="text-center mb-4" data-aos="fade-up">
-                Tu presencia es el mejor regalo que podemos recibir, pero si deseas obsequiarnos algo especial, 
-                hemos creado mesas de regalos en las siguientes tiendas:
+                Tu presencia es el mejor regalo que podemos recibir en este día tan especial. Si deseas acompañarnos con un detalle adicional, hemos creado mesas de regalos en las siguientes tiendas, o puedes elegir algo significativo fisicamente.
             </p>
             <div class="row justify-content-center">
                 <!-- Opción Liverpool -->
                 <div class="col-md-5 mb-4" data-aos="fade-right">
                     <div class="card shadow-sm border-0">
-                        <img src="https://via.placeholder.com/500x300?text=Liverpool" 
-                            class="card-img-top rounded-top" alt="Mesa de Regalos Liverpool">
+                        <div class="justify-content-center d-flex pt-3">
+                            <img src="img/liverpool.png" 
+                                class="card-img-top rounded-top" alt="Mesa de Regalos Liverpool" style="width: 180px;">
+                        </div>
                         <div class="card-body text-center">
                             <h5 class="card-title font-secondary">Liverpool</h5>
-                            <p class="card-text">Explora nuestra selección de regalos en Liverpool, donde encontrarás opciones perfectas para nosotros.</p>
-                            <a href="https://www.liverpool.com.mx/tienda/milistaderegalos" 
-                            target="_blank" class="btn btn-primary">
+                            <p class="card-text">Número de evento: <b>51434316</b>.</p>
+                            <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51434316" 
+                            target="_blank" class="btn button">
                                 Ver Mesa de Regalos
                             </a>
                         </div>
@@ -294,13 +278,15 @@
                 <!-- Opción Sears -->
                 <div class="col-md-5 mb-4" data-aos="fade-left">
                     <div class="card shadow-sm border-0">
-                        <img src="https://via.placeholder.com/500x300?text=Sears" 
-                            class="card-img-top rounded-top" alt="Mesa de Regalos Sears">
+                        <div class="justify-content-center d-flex pt-3">
+                            <img src="img/sears.png" 
+                                class="card-img-top rounded-top" alt="Mesa de Regalos Sears" style="width: 180px;">
+                        </div>
                         <div class="card-body text-center">
                             <h5 class="card-title font-secondary">Sears</h5>
-                            <p class="card-text">También hemos preparado una mesa de regalos en Sears, con productos que amamos.</p>
-                            <a href="https://www.sears.com.mx/mesa-de-regalos" 
-                            target="_blank" class="btn btn-primary">
+                            <p class="card-text">Número de evento: <b>138451</b>.</p>
+                            <a href="https://www.sears.com.mx/Mesa-de-Regalos/138451/te-invito-a-mi-boda-andrea-efrain" 
+                            target="_blank" class="btn button">
                                 Ver Mesa de Regalos
                             </a>
                         </div>
@@ -327,10 +313,10 @@
                 <div class="col-md-4 mb-4" data-aos="fade-right">
                     <div class="card shadow-sm border-0">
                         <div class="card-body text-center">
-                            <i class="fas fa-church fa-3x text-primary mb-3"></i>
+                            <!-- <i class="fas fa-church fa-3x text-primary mb-3"></i> -->
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-building-church"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l18 0" /><path d="M10 21v-4a2 2 0 0 1 4 0v4" /><path d="M10 5l4 0" /><path d="M12 3l0 5" /><path d="M6 21v-7m-2 2l8 -8l8 8m-2 -2v7" /></svg>
                             <h5 class="card-title font-secondary">Ceremonia Religiosa</h5>
-                            <p class="card-text">Únete a nosotros para celebrar nuestro amor en la parroquia.</p>
-                            <p class="text-muted">16:00 - Parroquia San Juan Bautista</p>
+                            <p class="text-muted">06:30 PM - Parroquia de San Miguel Arcángel</p>
                         </div>
                     </div>
                 </div>
@@ -338,10 +324,10 @@
                 <div class="col-md-4 mb-4" data-aos="fade-up">
                     <div class="card shadow-sm border-0">
                         <div class="card-body text-center">
-                            <i class="fas fa-glass-cheers fa-3x text-primary mb-3"></i>
-                            <h5 class="card-title font-secondary">Recepción</h5>
-                            <p class="card-text">Disfrutemos de una noche mágica con cena, música y baile.</p>
-                            <p class="text-muted">18:00 - Salón Jardín Elegancia</p>
+                            <!-- <i class="fas fa-glass-cheers fa-3x text-primary mb-3"></i> -->
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-glass-cocktail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 21h8" /><path d="M12 15v6" /><path d="M12 5m-7 0a7 2 0 1 0 14 0a7 2 0 1 0 -14 0" /><path d="M5 5v.388c0 .432 .126 .853 .362 1.206l5 7.509c.633 .951 1.88 1.183 2.785 .517c.191 -.141 .358 -.316 .491 -.517l5 -7.509c.236 -.353 .362 -.774 .362 -1.206v-.388" /></svg>
+                            <h5 class="card-title font-secondary">Recepción y Coctelería</h5>
+                            <p class="text-muted">08:30 PM - Jardín Luciérnagas, Hacienda del Cípres</p>
                         </div>
                     </div>
                 </div>
@@ -349,10 +335,54 @@
                 <div class="col-md-4 mb-4" data-aos="fade-left">
                     <div class="card shadow-sm border-0">
                         <div class="card-body text-center">
-                            <i class="fas fa-dance fa-3x text-primary mb-3"></i>
-                            <h5 class="card-title font-secondary">Baile</h5>
-                            <p class="card-text">¡Hora de divertirnos en la pista con nuestra primera canción!</p>
-                            <p class="text-muted">20:00 - Salón Jardín Elegancia</p>
+                            <!-- <i class="fas fa-dance fa-3x text-primary mb-3"></i> -->
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-friends"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" /><path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" /></svg>
+                            <h5 class="card-title font-secondary">Presentación de novios</h5>
+                            <p class="text-muted">por confirmar</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Actividad 4 -->
+                <div class="col-md-4 mb-4" data-aos="fade-left">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <!-- <i class="fa fa-cutlery fa-3x text-primary mb-3" aria-hidden="true"></i> -->
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tools-kitchen-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" /></svg>
+                            <h5 class="card-title font-secondary">Banquete</h5>
+                            <p class="text-muted">por confirmar</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Actividad 5 -->
+                <div class="col-md-4 mb-4" data-aos="fade-left">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <!-- <i class="fas fa-dance fa-3x text-primary mb-3"></i> -->
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-music-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M9 17v-13h10v7" /><path d="M9 8h10" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
+                            <h5 class="card-title font-secondary">Vals / Protocolo</h5>
+                            <p class="text-muted">por confirmar</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Actividad 6 -->
+                <div class="col-md-4 mb-4" data-aos="fade-left">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <!-- <i class="fas fa-dance fa-3x text-primary mb-3"></i> -->
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-vinyl"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 3.937a9 9 0 1 0 5 8.063" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M20 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M20 4l-3.5 10l-2.5 2" /></svg>
+                            <h5 class="card-title font-secondary">Apertura de pista</h5>
+                            <p class="text-muted">por confirmar</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Actividad 4 -->
+                <div class="col-md-4 mb-4" data-aos="fade-left">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <!-- <i class="fas fa-dance fa-3x text-primary mb-3"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-gate"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21v-10c0-3.866 2.239-7 5-7h8c2.761 0 5 3.134 5 7v10" /><path d="M3 21h18" /><path d="M6 21v-10" /><path d="M18 21v-10" /><path d="M10 21v-3h4v3" /><path d="M10 14h4" /></svg>                            
+                            <h5 class="card-title font-secondary">Clausura del evento</h5>
+                            <p class="text-muted">por confirmar</p>
                         </div>
                     </div>
                 </div>
@@ -370,54 +400,29 @@
                 <i class="fas fa-heart text-primary"></i>
             </div>
             <p class="mb-4" data-aos="fade-up">
-                Es un honor para nosotros compartir este día tan especial contigo. Por favor, confirma tu asistencia y la de tus acompañantes:
+                Te agradeceríamos confirmar tu asistencia en las próximas tres semanas. En caso de no poder asistir, te agradecemos por informarnos, ya que, de no recibir confirmación, tu boleto será asignado a otra persona.
             </p>
-            
-            <!-- Primary Confirmation Buttons -->
-            <div class="d-flex justify-content-center gap-3 mb-5">
-                <!-- Botón "Sí asistiré" -->
-                <a href="#" class="btn btn-primary btn-lg px-5 py-3" data-aos="fade-right">
-                    <i class="fas fa-check-circle me-2"></i> Sí, con gusto asistiré
-                </a>
-                <!-- Botón "No podré asistir" -->
-                <a href="#" class="btn btn-secondary btn-lg px-5 py-3" data-aos="fade-left" style="background-color: #6c757d; color: white;">
-                    <i class="fas fa-times-circle me-2"></i> Lamentablemente no podré asistir
-                </a>
-            </div>
             
             <!-- Guest List -->
             <div class="text-start border rounded p-4 mx-auto" style="max-width: 600px;" data-aos="fade-up">
-                <h3 class="font-secondary text-center mb-4">Invitados Secundarios</h3>
-                <p class="mb-3">Marca a los acompañantes que confirmarán su asistencia:</p>
-                <form>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" id="guest1">
-                        <label class="form-check-label" for="guest1">Nombre del Invitado 1</label>
-                    </div>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" id="guest2">
-                        <label class="form-check-label" for="guest2">Nombre del Invitado 2</label>
-                    </div>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" id="guest3">
-                        <label class="form-check-label" for="guest3">Nombre del Invitado 3</label>
-                    </div>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" id="guest4">
-                        <label class="form-check-label" for="guest4">Nombre del Invitado 4</label>
-                    </div>
-                    <!-- Add more guests as needed -->
-                    <button type="submit" class="btn btn-primary w-100 mt-4">
-                        Confirmar asistencia de acompañantes
-                    </button>
-                </form>
+                <h3 class="font-secondary text-center mb-4">Invitados</h3>
+                <form id="form-invitados"></form>
             </div>
+
+            <!-- Primary Confirmation Buttons -->
+            <div class="d-flex justify-content-center gap-3 mt-3 mb-5">
+                <!-- Botón "Sí asistiré" -->
+                <a href="https://forms.gle/Ux3ush4rMKzShNKC8" class="btn button btn-lg px-5 py-3" data-aos="fade-right" target="_blank">
+                    <i class="fas fa-clipboard-check mr-2"></i> Ir a confirmación
+                </a>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <h1 class="font-secondary display-3"><img src="img/arreglo_floral.png" style="width: 80%;" alt="Nuestra boda"></h1>
         </div>
     </div>
     <!-- Confirmation Section End -->
-
-
-
 
 
     <!-- Scroll to Bottom -->
@@ -443,6 +448,182 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        let urlParams = new URLSearchParams(window.location.search);
+        let inv = urlParams.get('inv');
+        let formInvitados = document.getElementById('form-invitados');
+        formInvitados.style = "text-align: left"
+
+
+        var invitados = [
+            [
+                'Leticia García Gómez',
+                'Carlos Hernández Padilla',
+                'Mariana Hernández García',
+                'Diego Cedano',
+                'Carlos Alberto Hernández García'
+            ],
+            [
+                'Alfredo García Rodriguez',
+                'Nataly Rivas'
+            ],
+            [
+                'Alfredo García Gómez',
+                'Fátima Saraí García Gómez',
+                'Leonardo Árias'
+            ],
+            [
+                'Margarita García Gómez',
+                'Guadalupe López García',
+                'Samanta Muñóz López',
+                'Nicol Muñóz López',
+                'Misael Muñóz López',
+                'Alejandro López García',
+                'Carlos López García'
+            ],
+            [
+                'Miguel Ángel López García',
+                'Nayeli Cinthya',
+                'Alexia Lopez',
+                'Danna López',
+                'Julieta López'
+            ],
+            [
+                'Cármen García Gómez',
+                'Madre Martha Laura',
+            ],
+            [
+                'Lucio García Gómez',
+                'Cecilia Figueroa Romo'
+            ],
+            [
+                'Ángel García Gómez',
+                'Lourdes Murillo Navarro',
+                'Ángel Arael García Murillo',
+                'Adriana Valeria García Murillo'
+            ],
+            [
+                'Jorge Valdez',
+                'Teresa Fregoso',
+                'Angelica Valdez',
+                'Arisbeth gómez',
+                'Jose Gonzalez',
+                'Jorge Valdez'
+            ],
+            [
+                'Blanca Valdez',
+                'Juan Garcia',
+                'Jade García',
+                '__________',
+            ],
+            [
+                'Delia',
+                'Oscar',
+                'Juan Pablo',
+            ],
+            [
+                'Madre Lourdes',
+                'Madre Hilda',
+                'Madre Arcelia',
+            ],
+            [
+                'Mario Alexis Serrano',
+                'Marcela B. Viniegra',
+                'Sophia Serrano',
+            ],
+            [
+                'Arturo Cacho',
+                'Esposa__________',
+                'Isaac Cacho'
+            ],
+            [
+                'Ramón Díaz',
+                'Esposa__________',
+            ],
+            [
+                'Juan Pablo Gonzalez',
+                'Esposa__________',
+            ],
+            [
+                'Gabriela Serrano Gómez',
+                'Katia Ramírez',
+                'Lizeth Ramírez',
+                'Alisson__________',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+            [
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+            ],
+        ];
+
+        for (let j = 0; j < invitados[inv].length; j++) {
+            let invitado = invitados[inv][j];
+
+            const div = document.createElement("div");
+            div.className = "mb-3";
+
+            const label = document.createElement("label");
+            label.className = "form-check-label font-weight-normal";
+            label.style = "font-size: 15px"
+            label.textContent = '• ' + invitado;
+
+            div.appendChild(label);
+            formInvitados.appendChild(div);
+        }
+    </script>
 </body>
 
 </html>
