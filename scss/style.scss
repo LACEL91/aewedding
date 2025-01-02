@@ -25,6 +25,13 @@ $border-width: 2px;
 
 @import "bootstrap/scss/bootstrap";
 
+@media (max-width: 768px) {
+    [data-aos="fade-left"] {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+
 .button {
     background-color: gray;
     color: white;
