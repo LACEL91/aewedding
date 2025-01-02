@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Andrea & Efraín - Nuestra boda</title>
+    <title>Andrea y Efraín - Nuestra boda</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -39,7 +39,7 @@
                     <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Andrea & Efraín</h1>
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Andrea y Efraín</h1>
                             <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                                 <h3 class="text-uppercase font-weight-normal text-white m-0"
                                     style="letter-spacing: 2px;">Nuestra boda</h3>
@@ -56,7 +56,7 @@
                     <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Andrea & Efraín</h1>
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Andrea y Efraín</h1>
                             <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                                 <h3 class="text-uppercase font-weight-normal text-white m-0"
                                     style="letter-spacing: 2px;">Nuestra boda</h3>
@@ -73,7 +73,7 @@
                     <img class="position-absolute w-100 h-100" src="img/carousel-3.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Andrea & Efraín</h1>
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Andrea y Efraín</h1>
                             <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                                 <h3 class="text-uppercase font-weight-normal text-white m-0"
                                     style="letter-spacing: 2px;">Nuestra boda</h3>
@@ -115,6 +115,29 @@
                 </p>
                 <i class="far fa-heart text-dark"></i>
             </div>
+
+            <!-- Countdown Timer -->
+            <div id="countdown" class="mt-4" style="font-size: 1.5rem; font-weight: bold; color: #6c757d;">
+                <div class="d-flex justify-content-center">
+                    <div class="mx-2 mx-md-3 text-center">
+                        <span id="days" class="d-block" style="font-size: 2.2rem;">00</span>
+                        <small class="text-uppercase d-block" style="font-size: 0.8rem;">Días</small>
+                    </div>
+                    <div class="mx-2 mx-md-3 text-center">
+                        <span id="hours" class="d-block" style="font-size: 2.2rem;">00</span>
+                        <small class="text-uppercase d-block" style="font-size: 0.8rem;">Horas</small>
+                    </div>
+                    <div class="mx-2 mx-md-3 text-center">
+                        <span id="minutes" class="d-block" style="font-size: 2.2rem;">00</span>
+                        <small class="text-uppercase d-block" style="font-size: 0.8rem;">Minutos</small>
+                    </div>
+                    <div class="mx-2 mx-md-3 text-center">
+                        <span id="seconds" class="d-block" style="font-size: 2.2rem;">00</span>
+                        <small class="text-uppercase d-block" style="font-size: 0.8rem;">Segundos</small>
+                    </div>
+                </div>
+            </div>
+
             
 
             <!-- Novios Section -->
@@ -448,6 +471,34 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        // Configurar la fecha de la boda
+        const weddingDate = new Date("2025-03-01T18:30:00").getTime();
+
+        // Actualizar el temporizador cada segundo
+        const countdownInterval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = weddingDate - now;
+
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById("countdown").innerHTML = "¡El gran día ha llegado!";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+        }, 1000);
+
+    </script>
 
     <script>
         let urlParams = new URLSearchParams(window.location.search);
