@@ -433,11 +433,22 @@
             </div>
 
             <!-- Primary Confirmation Buttons -->
-            <div class="d-flex justify-content-center gap-3 mt-3 mb-5">
-                <!-- Botón "Sí asistiré" -->
+            <div id="confirmar-asistencia" class="justify-content-center gap-3 mt-3 mb-5" style="display: none;">
                 <a href="https://forms.gle/Ux3ush4rMKzShNKC8" class="btn button btn-lg px-5 py-3" data-aos="fade-right" target="_blank">
                     <i class="fas fa-clipboard-check mr-2"></i> Ir a confirmación
                 </a>
+            </div>
+
+            <!-- Primary Confirmation Buttons -->
+            <div id="cancelar-asistencia" class="justify-content-center gap-3 mt-3 mb-5" style="display: none;">
+                <p>Gracias por confirmar tu asistencia. Tu registro ha sido guardado correctamente.</p>
+                <a href="https://forms.gle/Ux3ush4rMKzShNKC8" class="btn button btn-lg px-5 py-3" data-aos="fade-right" target="_blank">
+                    <i class="fas fa-window-close mr-2"></i> Cancelar asistencia
+                </a>
+            </div>
+
+            <div id="asistencia-cancelada" class="justify-content-center gap-3 mt-3 mb-5" style="display: none;">
+                <p>Gracias por tomarse el tiempo de informarnos sobre su ausencia en el evento. Aprecio mucho su consideración y espero poder contar con su presencia en otra ocasión. </p>
             </div>
         </div>
 
@@ -471,6 +482,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/invitados.js"></script>
 
     <script>
         // Configurar la fecha de la boda
@@ -498,126 +510,6 @@
             document.getElementById("seconds").textContent = seconds;
         }, 1000);
 
-    </script>
-
-    <script>
-        let urlParams = new URLSearchParams(window.location.search);
-        let inv = urlParams.get('inv');
-        let formInvitados = document.getElementById('form-invitados');
-        formInvitados.style = "text-align: left"
-
-        var invitados = {
-            'lety': [
-                'Leticia García Gómez',
-                'Carlos Hernández Padilla',
-                'Mariana Hernández García',
-                'Diego Cedano',
-                'Carlos Alberto Hernández García'
-            ],
-            'alfredo': [
-                'Alfredo García Rodriguez',
-                'Nataly Rivas'
-            ],
-            'sara': [
-                'Alfredo García Gómez',
-                'Fátima Saraí García Gómez',
-                'Leonardo Árias'
-            ],
-            'mago': [
-                'Margarita García Gómez',
-                'Guadalupe López García',
-                'Samanta Muñóz López',
-                'Nicol Muñóz López',
-                'Misael Muñóz López',
-                'Alejandro López García',
-                'Carlos López García',
-	            'Adriana Gutierrez'
-            ],
-            'miguel': [
-                'Miguel Ángel López García',
-                'Nayeli Cinthya',
-                'Alexia Lopez',
-                'Danna López',
-                'Julieta López'
-            ],
-            'carmen': [
-                'Cármen García Gómez',
-                'Madre Martha Laura',
-            ],
-            'lucio': [
-                'Lucio García Gómez',
-                'Cecilia Figueroa Romo'
-            ],
-            'arael': [
-                'Ángel García Gómez',
-                'Lourdes Murillo Navarro',
-                'Ángel Arael García Murillo',
-                'Adriana Valeria García Murillo'
-            ],
-            'tere': [
-                'Jorge Valdez',
-                'Teresa Fregoso',
-                'Angelica Valdez',
-                'Arisbeth',
-                'Jose',
-                'Jorge Valdez'
-            ],
-            'blanca': [
-                'Blanca Valdez',
-                'Juan Garcia',
-                'Jade García',
-                '__________',
-            ],
-            'delia': [
-                'Delia Santillan',
-                'Oscar Luna',
-                'Juan Pablo Luna',
-            ],
-            'madres': [
-                'Madre Lourdes',
-                'Madre Hilda',
-                'Madre Arcelia',
-            ],
-            'mario': [
-                'Mario Alexis Serrano',
-                'Marcela B. Viniegra',
-                'Sophia Serrano',
-            ],
-            'cacho': [
-                'Arturo Cacho',
-                '+ 1 invitado',
-            ],
-            'ramon': [
-                'Ramón Díaz',
-                '+ 1 invitado',
-            ],
-            'juanpablo': [
-                'Juan Pablo Gonzalez',
-                '+ 1 invitado',
-            ],
-            'gaby': [
-                'Gabriela Serrano Gómez',
-                'Katia Ramírez',
-                'Lizeth Ramírez',
-                'Alisson',
-            ],
-        };
-
-
-        for (let j = 0; j < invitados[inv].length; j++) {
-            let invitado = invitados[inv][j];
-
-            const div = document.createElement("div");
-            div.className = "mb-3";
-
-            const label = document.createElement("label");
-            label.className = "form-check-label font-weight-normal";
-            label.style = "font-size: 15px"
-            label.textContent = '• ' + invitado;
-
-            div.appendChild(label);
-            formInvitados.appendChild(div);
-        }
     </script>
 </body>
 
