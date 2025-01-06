@@ -149,21 +149,21 @@ var invitados = {
 
     // Efrain
 
-    'antonio_cortes': {
+    'antoniocortes': {
         miembros: [
             'Antonio Cortés Hernández',
             'Valeria Torres Landino',
         ],
         asistencia: 0
     },
-    'omar_reynoso': {
+    'omarreynoso': {
         miembros: [
             'Omar Reynoso García',
             'Athziry Lizette Quirarte Ramírez',
         ],
         asistencia: 0
     },
-    'memo_garcia': {
+    'memogarcia': {
         miembros: [
             'Guillermo García',
             '+ 1 invitado',
