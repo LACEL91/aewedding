@@ -16,7 +16,7 @@ var invitados = {
             'Alfredo García Rodriguez',
             'Nataly Rivas'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'sara': {
         miembros: [
@@ -24,7 +24,7 @@ var invitados = {
             'Fátima Saraí García Gómez',
             'Leonardo Árias'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'mago': {
         miembros: [
@@ -47,21 +47,21 @@ var invitados = {
             'Danna López',
             'Julieta López'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'carmen': {
         miembros: [
             'Cármen García Gómez',
             'Madre Martha Laura'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'lucio': {
         miembros: [
             'Lucio García Gómez',
             'Cecilia Figueroa Romo'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'arael': {
         miembros: [
@@ -70,7 +70,7 @@ var invitados = {
             'Ángel Arael García Murillo',
             'Adriana Valeria García Murillo'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'tere': {
         miembros: [
@@ -88,7 +88,7 @@ var invitados = {
             'Blanca Valdez',
             'Juan Garcia',
             'Jade García',
-            '__________'
+            'Ambar García Valdéz'
         ],
         asistencia: 0
     },
@@ -98,7 +98,7 @@ var invitados = {
             'Oscar Luna',
             'Juan Pablo Luna'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'madres': {
         miembros: [
@@ -114,7 +114,7 @@ var invitados = {
             'Marcela B. Viniegra',
             'Sophia Serrano'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'cacho': {
         miembros: [
@@ -128,14 +128,14 @@ var invitados = {
             'Ramón Díaz',
             '+ 1 invitado'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'juanpablo': {
         miembros: [
             'Juan Pablo Gonzalez',
             '+ 1 invitado'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'gaby': {
         miembros: [
@@ -144,7 +144,7 @@ var invitados = {
             'Lizeth Ramírez',
             'Alisson'
         ],
-        asistencia: 0
+        asistencia: 1
     },
 
     // Efrain
@@ -154,7 +154,7 @@ var invitados = {
             'Antonio Cortés Hernández',
             'Valeria Torres Landino',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'omarreynoso': {
         miembros: [
@@ -165,7 +165,7 @@ var invitados = {
     },
     'memogarcia': {
         miembros: [
-            'Guillermo García',
+            'Germán Guillermo García ',
             '+ 1 invitado',
         ],
         asistencia: 0
