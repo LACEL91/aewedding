@@ -165,7 +165,7 @@ var invitados = {
     },
     'memogarcia': {
         miembros: [
-            'Germán Guillermo García ',
+            'Germán Guillermo García de la Cruz',
             '+ 1 invitado',
         ],
         asistencia: 0
