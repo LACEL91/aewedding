@@ -170,6 +170,17 @@ var invitados = {
         ],
         asistencia: 0
     },
+    'andreaeli': {
+        miembros: [
+            'Luis Alberto Dominguez Román',
+            'Maria Toribio Magallanes',
+            'Andrea Elizabeth Dominguez Toribio',
+            'Luis Ernesto Dominguez Toribio',
+            'Maria Fernanda Dominguez Toribio',
+            'Lucio Padilla Vázquez'
+        ],
+        asistencia: 0
+    },
 };
 
 
