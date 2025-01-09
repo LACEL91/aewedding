@@ -177,7 +177,7 @@ var invitados = {
             'Andrea Elizabeth Dominguez Toribio',
             'Luis Ernesto Dominguez Toribio',
             'Maria Fernanda Dominguez Toribio',
-            'Lucio Padilla Vázquez'
+            'Lucio Padilla Vázquez',
         ],
         asistencia: 0
     },
