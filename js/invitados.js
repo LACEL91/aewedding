@@ -192,7 +192,7 @@ var invitados = {
         miembros: [
             'Karina Barba García',
             'Alessandra Montserrat Barba Carcía',
-            'Pavel Abraham Ángel Flóres',
+            'Pável Abraham Ángel Flóres',
             '+ 2 invitados'
         ],
         asistencia: 0
