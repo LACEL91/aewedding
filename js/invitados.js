@@ -90,7 +90,7 @@ var invitados = {
             'Jade García',
             'Ambar García Valdéz'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'delia': {
         miembros: [
@@ -166,7 +166,6 @@ var invitados = {
     'memogarcia': {
         miembros: [
             'Germán Guillermo García de la Cruz',
-            '+ 1 invitado',
         ],
         asistencia: 0
     },
@@ -178,6 +177,34 @@ var invitados = {
             'Luis Ernesto Dominguez Toribio',
             'Maria Fernanda Dominguez Toribio',
             'Lucio Padilla Vázquez',
+        ],
+        asistencia: 1
+    },
+    'pirr': {
+        miembros: [
+            'Perla Rosales Rosales',
+            'José Agapito Castro Ventura',
+            '+ 1 niño'
+        ],
+        asistencia: 0
+    },
+    'montsebarba': {
+        miembros: [
+            'Karina Barba García',
+            'Alessandra Montserrat Barba Carcía',
+            'Pavel Abraham Ángel Flores',
+            '+ 2 invitados'
+        ],
+        asistencia: 0
+    },
+    'marthaochoa': {
+        miembros: [
+            'Lucía Cárdenas González',
+            'Ignacio Ochoa',
+            'Martha Alicia Ochoa Cárdenas',
+            'Lucía Lizbeth Ochoa Cárdenas',
+            'Humberto Ochoa Cárdenas',
+            '+ 2 niños'
         ],
         asistencia: 0
     },
