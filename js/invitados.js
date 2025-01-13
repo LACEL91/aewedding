@@ -191,7 +191,7 @@ var invitados = {
     'montsebarba': {
         miembros: [
             'Karina Barba García',
-            'Alessandra Montserrat Barba Carcía',
+            'Alessandra Montserrat Barba García',
             'Pável Abraham Ángel Flóres',
             '+ 2 invitados'
         ],
