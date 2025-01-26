@@ -148,6 +148,17 @@ var invitados = {
     },
 
     // Efrain
+    'armandollagas': {
+        miembros: [
+            'Armando Llagas Flóres',
+            'Ma. Dolores Cárdenas González',
+            'Ana Lilia Llagas Cárdenas',
+            'Alma Laura Llagas Cárdenas',
+            'Luis Alberto Llagas Cárdenas',
+            'Diana Elvira Llagas Cárdenas',
+        ],
+        asistencia: 1
+    },
 
     'antoniocortes': {
         miembros: [
