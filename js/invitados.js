@@ -237,6 +237,25 @@ var invitados = {
         ],
         asistencia: 0
     },
+    'laloochoa': {
+        miembros: [
+            'Eduardo Ochoa Cárdenas',
+            'Jazmin Maciel Guapo',
+            'Edén Ochoa Maciel',
+        ],
+        asistencia: 0
+    },
+    'elviracardenas': {
+        miembros: [
+            'Elvira Cárdenas Gonzalez',
+            'Jaime Alberto Silva',
+            'Ruth Maria Silva Cárdenas',
+            'Kia López Silva',
+            'Ricardo Silvar Cárdenas',
+            'Rodrigo Silvar Cárdenas',
+        ],
+        asistencia: 0
+    },
     'ritacardenas': {
         miembros: [
             'Alejo Torales Castillo',
@@ -244,6 +263,30 @@ var invitados = {
             'Maria Karen Torales Cárdenas',
             'Maria Jenifer Torales Cárdenas',
             'Alejandro Torales Cárdenas',
+        ],
+        asistencia: 0
+    },
+    'raulcardenas': {
+        miembros: [
+            'Raúl Cárdenas González',
+            'Veronica Encizo Rodriguez',
+            'Vanessa Cárdenas Encizo',
+            'Raúl Cárdenas Encizo',
+        ],
+        asistencia: 0
+    },
+    'nenacardenas': {
+        miembros: [
+            'Maria Elena Cárdenas González',
+            'Rolando Ávalos',
+            'Luz Ángela Ávalos Cárdenas',
+        ],
+        asistencia: 0
+    },
+    'pedrollagas': {
+        miembros: [
+            'Pedro Llagas Flóres',
+            'Emelí Reynoso Álvarez',
         ],
         asistencia: 0
     },
