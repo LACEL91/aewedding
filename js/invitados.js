@@ -190,21 +190,60 @@ var invitados = {
     },
     'montsebarba': {
         miembros: [
-            'Karina Barba García',
             'Alessandra Montserrat Barba García',
             'Pável Abraham Ángel Flóres',
-            '+ 2 invitados'
+            'Felipe jimenez'
         ],
         asistencia: 0
     },
     'marthaochoa': {
         miembros: [
             'Lucía Cárdenas González',
-            'Ignacio Ochoa',
+            'Ignacio Ochoa Sánchez',
             'Martha Alicia Ochoa Cárdenas',
             'Lucía Lizbeth Ochoa Cárdenas',
             'Humberto Ochoa Cárdenas',
-            '+ 2 niños'
+            'Osmar Martínez Ochoa',
+            'Elain Victoria Martínez Ochoa'
+        ],
+        asistencia: 0
+    },
+    'jaimeochoa': {
+        miembros: [
+            'Jaime Ochoa Cárdenas',
+            'Elida Trigo Luises',
+            'Elida Margarita Ochoa Trigo',
+            'Abraham Ochoa Trigo',
+        ],
+        asistencia: 0
+    },
+    'nachoochoa': {
+        miembros: [
+            'Ignacio Ochoa Cárdenas',
+            'Fabiola Rodriguez Gavilan',
+            'Heidi Anahí Ochoa Rodriguez',
+            'María Fernanda Ochoa Rodriguez',
+            'María José Ochoa Rodriguez',
+            'Josué de Jesús Ochoa Rodriguez',
+        ],
+        asistencia: 0
+    },
+    'cesarochoa': {
+        miembros: [
+            'Cesar Raúl Ochoa Cárdenas',
+            'Araceli Vázquez',
+            'Sofia Ochoa Vázquez',
+            'Santiago Ochoa Vázquez'
+        ],
+        asistencia: 0
+    },
+    'ritacardenas': {
+        miembros: [
+            'Alejo Torales Castillo',
+            'Rita Cárdenas González',
+            'Maria Karen Torales Cárdenas',
+            'Maria Jenifer Torales Cárdenas',
+            'Alejandro Torales Cárdenas',
         ],
         asistencia: 0
     },
