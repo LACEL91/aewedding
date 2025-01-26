@@ -204,7 +204,7 @@ var invitados = {
             'Lucía Lizbeth Ochoa Cárdenas',
             'Humberto Ochoa Cárdenas',
             'Osmar Martínez Ochoa',
-            'Elain Victoria Martínez Ochoa'
+            'Elaine Victoria Martínez Ochoa'
         ],
         asistencia: 0
     },
