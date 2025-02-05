@@ -216,7 +216,7 @@ var invitados = {
             'Osmar Martínez Ochoa',
             'Elaine Victoria Martínez Ochoa'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'jaimeochoa': {
         miembros: [
@@ -277,7 +277,7 @@ var invitados = {
             'Maria Jenifer Torales Cárdenas',
             'Alejandro Torales Cárdenas',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'radytorales': {
         miembros: [
