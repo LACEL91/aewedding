@@ -282,7 +282,9 @@ var invitados = {
     'radytorales': {
         miembros: [
             'Radiel Torales Cárdenas',
-            'Lizy Ochoa Lizardi'
+            'Lizy Ochoa Lizardi',
+            'Axel Radiel Torales Ochoa',
+            '+ 2 niños'
         ],
         asistencia: 0
     },
