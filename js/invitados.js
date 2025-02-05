@@ -37,7 +37,7 @@ var invitados = {
             'Carlos López García',
             'Adriana Gutierrez'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'miguel': {
         miembros: [
@@ -81,7 +81,7 @@ var invitados = {
             'Jose',
             'Jorge Valdez'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'blanca': {
         miembros: [
@@ -106,7 +106,7 @@ var invitados = {
             'Madre Hilda',
             'Madre Arcelia'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'mario': {
         miembros: [
@@ -121,7 +121,7 @@ var invitados = {
             'Arturo Cacho',
             '+ 1 invitado'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'ramon': {
         miembros: [
@@ -159,7 +159,6 @@ var invitados = {
         ],
         asistencia: 1
     },
-
     'antoniocortes': {
         miembros: [
             'Antonio Cortés Hernández',
@@ -197,7 +196,7 @@ var invitados = {
             'José Agapito Castro Ventura',
             '+ 1 niño'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'montsebarba': {
         miembros: [
@@ -248,6 +247,9 @@ var invitados = {
         ],
         asistencia: 0
     },
+
+
+
     'laloochoa': {
         miembros: [
             'Eduardo Ochoa Cárdenas',
@@ -277,6 +279,27 @@ var invitados = {
         ],
         asistencia: 0
     },
+    'radytorales': {
+        miembros: [
+            'Radiel Torales Cárdenas',
+            'Lizy Ochoa Lizardi'
+        ],
+        asistencia: 0
+    },
+    'pacotorales': {
+        miembros: [
+            'Francisco Javier Torales Cárdenas',
+            'Sthefany Hdez. Herrera'
+        ],
+        asistencia: 0
+    },
+    'naumtorales': {
+        miembros: [
+            'José Naúm Torales Cárdenas',
+            'Saraí Ramirez'
+        ],
+        asistencia: 0
+    },
     'raulcardenas': {
         miembros: [
             'Raúl Cárdenas González',
@@ -291,6 +314,7 @@ var invitados = {
             'Maria Elena Cárdenas González',
             'Rolando Ávalos',
             'Luz Ángela Ávalos Cárdenas',
+            '+ 1 invitado'
         ],
         asistencia: 0
     },
