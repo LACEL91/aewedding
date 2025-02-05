@@ -291,7 +291,8 @@ var invitados = {
     'pacotorales': {
         miembros: [
             'Francisco Javier Torales Cárdenas',
-            'Sthefany Hdez. Herrera'
+            'Sthefany Hdez. Herrera',
+            '+ 2 niños'
         ],
         asistencia: 0
     },
