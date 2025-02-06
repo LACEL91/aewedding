@@ -245,7 +245,7 @@ var invitados = {
             'Sofia Ochoa Vázquez',
             'Santiago Ochoa Vázquez'
         ],
-        asistencia: 1
+        asistencia: 2
     },
     'ritacardenas': {
         miembros: [
