@@ -299,9 +299,6 @@ var invitados = {
         ],
         asistencia: 0
     },
-
-
-
     'laloochoa': {
         miembros: [
             'Eduardo Ochoa Cárdenas',
@@ -335,17 +332,28 @@ var invitados = {
         ],
         asistencia: 0
     },
+
+
+
+
+    // 'pedrollagas': {
+    //     miembros: [
+    //         'Pedro Llagas Flóres',
+    //         'Emelí Reynoso Álvarez',
+    //         'Emelí Llagas Reynoso',
+    //         'Antonio Gómez',
+    //         'Raquel Llagas Reynoso',
+    //         'Juan Arenas',
+    //         'Magdalena Llagas Reynoso',
+    //         'Miguel Vidales',
+    //         'Marcela Llagas Reynoso',
+    //     ],
+    //     asistencia: 0
+    // },
     'pedrollagas': {
         miembros: [
             'Pedro Llagas Flóres',
-            'Emelí Reynoso Álvarez',
-            'Emelí Llagas Reynoso',
-            'Antonio Gómez',
-            'Raquel Llagas Reynoso',
-            'Juan Arenas',
-            'Magdalena Llagas Reynoso',
-            'Miguel Vidales',
-            'Marcela Llagas Reynoso',
+            'Emelí Reynoso Álvarez'
         ],
         asistencia: 0
     },
