@@ -330,30 +330,32 @@ var invitados = {
         miembros: [
             'Jonathan Cárdenas Encizo',
         ],
-        asistencia: 0
+        asistencia: 1
     },
-
-
-
-
-    // 'pedrollagas': {
-    //     miembros: [
-    //         'Pedro Llagas Flóres',
-    //         'Emelí Reynoso Álvarez',
-    //         'Emelí Llagas Reynoso',
-    //         'Antonio Gómez',
-    //         'Raquel Llagas Reynoso',
-    //         'Juan Arenas',
-    //         'Magdalena Llagas Reynoso',
-    //         'Miguel Vidales',
-    //         'Marcela Llagas Reynoso',
-    //     ],
-    //     asistencia: 0
-    // },
     'pedrollagas': {
         miembros: [
             'Pedro Llagas Flóres',
             'Emelí Reynoso Álvarez'
+        ],
+        asistencia: 0
+    },
+    'emelillagas': {
+        miembros: [
+        ],
+        asistencia: 0
+    },
+    'raquellagas': {
+        miembros: [
+        ],
+        asistencia: 0
+    },
+    'magdallagas': {
+        miembros: [
+        ],
+        asistencia: 0
+    },
+    'marcellagas': {
+        miembros: [
         ],
         asistencia: 0
     },
