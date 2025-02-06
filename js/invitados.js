@@ -356,6 +356,9 @@ var invitados = {
     },
     'marcellagas': {
         miembros: [
+            'Marcela Llagas Reynoso',
+            'Mario Alejandro García Llagas',
+            '+ 1 niño'
         ],
         asistencia: 0
     },
