@@ -310,6 +310,14 @@ var invitados = {
         ],
         asistencia: 0
     },
+    'manueavalos': {
+        miembros: [
+            'Emanuel Ávalos Cárdenas',
+            'Fabiola Lizbeth Castañeda Pérez',
+            '+ 1 niño',
+        ],
+        asistencia: 0
+    },
     'elviracardenas': {
         miembros: [
             'Elvira Cárdenas Gonzalez',
