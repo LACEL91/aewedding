@@ -245,29 +245,7 @@ var invitados = {
             'Sofia Ochoa Vázquez',
             'Santiago Ochoa Vázquez'
         ],
-        asistencia: 0
-    },
-
-
-
-    'laloochoa': {
-        miembros: [
-            'Eduardo Ochoa Cárdenas',
-            'Jazmin Maciel Guapo',
-            'Edén Ochoa Maciel',
-        ],
-        asistencia: 0
-    },
-    'elviracardenas': {
-        miembros: [
-            'Elvira Cárdenas Gonzalez',
-            'Jaime Alberto Silva',
-            'Ruth Maria Silva Cárdenas',
-            'Kia López Silva',
-            'Ricardo Silvar Cárdenas',
-            'Rodrigo Silvar Cárdenas',
-        ],
-        asistencia: 0
+        asistencia: 1
     },
     'ritacardenas': {
         miembros: [
@@ -310,7 +288,7 @@ var invitados = {
             'Vanessa Cárdenas Encizo',
             'Raúl Cárdenas Encizo',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'nenacardenas': {
         miembros: [
@@ -318,6 +296,34 @@ var invitados = {
             'Rolando Ávalos',
             'Luz Ángela Ávalos Cárdenas',
             '+ 1 invitado'
+        ],
+        asistencia: 0
+    },
+
+
+
+    'laloochoa': {
+        miembros: [
+            'Eduardo Ochoa Cárdenas',
+            'Jazmin Maciel Guapo',
+            '+ 1 niño',
+        ],
+        asistencia: 0
+    },
+    'elviracardenas': {
+        miembros: [
+            'Elvira Cárdenas Gonzalez',
+            'Jaime Alberto Silva',
+            'Ruth Maria Silva Cárdenas',
+            'Kia López Silva',
+            'Ricardo Silvar Cárdenas',
+            'Rodrigo Silvar Cárdenas',
+        ],
+        asistencia: 0
+    },
+    'jonycardenas': {
+        miembros: [
+            'Jonathan Cárdenas Encizo',
         ],
         asistencia: 0
     },
