@@ -337,7 +337,7 @@ var invitados = {
             'Pedro Llagas Flóres',
             'Emelí Reynoso Álvarez'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'emelillagas': {
         miembros: [
