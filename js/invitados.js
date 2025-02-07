@@ -351,6 +351,10 @@ var invitados = {
     },
     'magdallagas': {
         miembros: [
+            'Magdalena Llagas Reynoso',
+            'Alfonso Miguel Vidales Lazcano',
+            'Santiago Miguel Naranjo Llagas',
+            'David Eduardo Naranjo Llagas'
         ],
         asistencia: 0
     },
