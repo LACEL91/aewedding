@@ -223,7 +223,7 @@ var invitados = {
             'Jaime Ochoa Cárdenas',
             'Elida Trigo Luises',
             'Elida Margarita Ochoa Trigo',
-            'Abraham Ochoa Trigo',
+            '+ 1 niño',
         ],
         asistencia: 0
     },
@@ -233,8 +233,7 @@ var invitados = {
             'Fabiola Rodriguez Gavilan',
             'Heidi Anahí Ochoa Rodriguez',
             'María Fernanda Ochoa Rodriguez',
-            'María José Ochoa Rodriguez',
-            'Josué de Jesús Ochoa Rodriguez',
+            '+ 2 niños',
         ],
         asistencia: 0
     },
@@ -242,8 +241,7 @@ var invitados = {
         miembros: [
             'Cesar Raúl Ochoa Cárdenas',
             'Araceli Vázquez Ayala',
-            'Sofia Ochoa Vázquez',
-            'Santiago Ochoa Vázquez'
+            '+ 2 niños'
         ],
         asistencia: 2
     },
@@ -346,6 +344,9 @@ var invitados = {
     },
     'raquellagas': {
         miembros: [
+            'Juan Manuel Arenas Maciel',
+            'Raquel Llagas Reynoso',
+            'Juan Pedro Arenas Llagas'
         ],
         asistencia: 0
     },
@@ -356,7 +357,7 @@ var invitados = {
             'Santiago Miguel Naranjo Llagas',
             'David Eduardo Naranjo Llagas'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'marcellagas': {
         miembros: [
@@ -366,6 +367,16 @@ var invitados = {
         ],
         asistencia: 0
     },
+    'reynosogarcia': {
+        miembros: [
+            'Armando Reynoso',
+            'María Reyes García',
+            'Lizbeth Esmeralda Reynoso García',
+            'Tania Reynoso García',
+            'Armando Gabriel Reynoso García',
+        ],
+        asistencia: 0
+    }
 };
 
 
