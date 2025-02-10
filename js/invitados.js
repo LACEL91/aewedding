@@ -348,7 +348,7 @@ var invitados = {
             'Raquel Llagas Reynoso',
             'Juan Pedro Arenas Llagas'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'magdallagas': {
         miembros: [
