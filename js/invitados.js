@@ -170,6 +170,12 @@ var invitados = {
         miembros: [
             'Omar Reynoso García',
             'Athziry Lizette Quirarte Ramírez',
+            'Armando Reynoso',
+            'María Reyes García',
+            'Lizbeth Esmeralda Reynoso García',
+            'Tania Reynoso García',
+            'Armando Gabriel Reynoso García',
+            'Gabriel Zuñiga'
         ],
         asistencia: 0
     },
@@ -367,16 +373,6 @@ var invitados = {
         ],
         asistencia: 0
     },
-    'reynosogarcia': {
-        miembros: [
-            'Armando Reynoso',
-            'María Reyes García',
-            'Lizbeth Esmeralda Reynoso García',
-            'Tania Reynoso García',
-            'Armando Gabriel Reynoso García',
-        ],
-        asistencia: 0
-    }
 };
 
 
