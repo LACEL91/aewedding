@@ -177,7 +177,7 @@ var invitados = {
             'Armando Gabriel Reynoso García',
             'Gabriel Zuñiga'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'memogarcia': {
         miembros: [
@@ -210,7 +210,7 @@ var invitados = {
             'Pável Abraham Ángel Flóres',
             'Felipe jimenez'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'marthaochoa': {
         miembros: [
@@ -370,6 +370,15 @@ var invitados = {
             'Marcela Llagas Reynoso',
             'Mario Alejandro García Llagas',
             '+ 1 niño'
+        ],
+        asistencia: 0
+    },
+    'angelagonzalez': {
+        miembros: [
+            'éngela Gonzalez Bañuelos',
+            'Miguel Torres',
+            'Daniela Tórres González',
+            'Alejandra Torres González'
         ],
         asistencia: 0
     },
