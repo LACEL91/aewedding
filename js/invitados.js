@@ -268,7 +268,7 @@ var invitados = {
             'Axel Radiel Torales Ochoa',
             '+ 2 niños'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'pacotorales': {
         miembros: [
@@ -379,6 +379,15 @@ var invitados = {
             'Miguel Torres',
             'Daniela Tórres González',
             'Alejandra Torres González'
+        ],
+        asistencia: 1
+    },
+    'miguelcardenas': {
+        miembros: [
+            'Miguel Cárdenas González',
+            'Rosario Parra',
+            'José Miguel Cárdenas Parra',
+            'Sebastian Isaac Cárdenas Parra'
         ],
         asistencia: 0
     },
