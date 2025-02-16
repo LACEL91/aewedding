@@ -407,6 +407,19 @@ var invitados = {
         ],
         asistencia: 0
     },
+
+    'tereluna': {
+        miembros: [
+            'Teresa Luna Tejeda',
+            'Rodolfo Lizardi Pérez',
+            'Micaela Tejeda Flóres',
+            'Maria Fernanda Lizardi Luna',
+            'Irma Lizet Lizardi Luna',
+            'Valeria Lizardi Luna',
+            '+ 1 niño'
+        ],
+        asistencia: 0
+    },
 };
 
 
