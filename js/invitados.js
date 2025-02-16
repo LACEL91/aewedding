@@ -400,10 +400,10 @@ var invitados = {
     },
     'trini': {
         miembros: [
-            'Trini',
-            'Flaquito',
-            'Alondra',
-            'José',
+            'Ma. Trinidad Rodríguez Solís',
+            'Eduardo Figueroa González ',
+            'Alondra Figueroa Rodríguez',
+            'José Eduardo Figueroa Rodríguez',
         ],
         asistencia: 0
     },
