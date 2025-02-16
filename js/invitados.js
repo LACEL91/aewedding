@@ -346,7 +346,7 @@ var invitados = {
     'emelillagas': {
         miembros: [
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'raquellagas': {
         miembros: [
@@ -388,6 +388,22 @@ var invitados = {
             'Rosario Parra',
             'José Miguel Cárdenas Parra',
             'Sebastian Isaac Cárdenas Parra'
+        ],
+        asistencia: 0
+    },
+    'lupitagarcia': {
+        miembros: [
+            'Guadalupe García',
+            'Enrique Navarro',
+        ],
+        asistencia: 0
+    },
+    'trini': {
+        miembros: [
+            'Trini',
+            'Flaquito',
+            'Alondra',
+            'José',
         ],
         asistencia: 0
     },
