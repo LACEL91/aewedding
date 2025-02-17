@@ -422,7 +422,7 @@ var invitados = {
             'Valeria Lizardi Luna',
             '+ 1 niño'
         ],
-        asistencia: 0
+        asistencia: 1
     },
 };
 
