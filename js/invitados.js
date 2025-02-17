@@ -345,8 +345,11 @@ var invitados = {
     },
     'emelillagas': {
         miembros: [
+            'Melissa Gómez Llagas',
+            'Erick Aalejandro Ortíz Romo',
+            'Iker Sebastian Gómez Llagas (Niño)'
         ],
-        asistencia: 1
+        asistencia: 0
     },
     'raquellagas': {
         miembros: [
