@@ -398,7 +398,7 @@ var invitados = {
         ],
         asistencia: 0
     },
-    'trini': {
+    'trinirodriguez': {
         miembros: [
             'Ma. Trinidad Rodríguez Solís',
             'Eduardo Figueroa González ',
