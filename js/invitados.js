@@ -183,7 +183,7 @@ var invitados = {
         miembros: [
             'Germán Guillermo García de la Cruz',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'andreaeli': {
         miembros: [
@@ -231,7 +231,7 @@ var invitados = {
             'Elida Margarita Ochoa Trigo',
             '+ 1 niño',
         ],
-        asistencia: 0
+        asistencia: 2
     },
     'nachoochoa': {
         miembros: [
@@ -241,7 +241,7 @@ var invitados = {
             'María Fernanda Ochoa Rodriguez',
             '+ 2 niños',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'cesarochoa': {
         miembros: [
@@ -276,14 +276,14 @@ var invitados = {
             'Sthefany Hdez. Herrera',
             '+ 2 niños'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'naumtorales': {
         miembros: [
             'José Naúm Torales Cárdenas',
             'Saraí Ramirez'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'raulcardenas': {
         miembros: [
@@ -301,7 +301,7 @@ var invitados = {
             'Luz Ángela Ávalos Cárdenas',
             '+ 1 invitado'
         ],
-        asistencia: 0
+        asistencia: 2
     },
     'laloochoa': {
         miembros: [
@@ -309,7 +309,7 @@ var invitados = {
             'Jazmin Maciel Guapo',
             '+ 1 niño',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'manueavalos': {
         miembros: [
@@ -317,7 +317,7 @@ var invitados = {
             'Fabiola Lizbeth Castañeda Pérez',
             '+ 1 niño',
         ],
-        asistencia: 0
+        asistencia: 2
     },
     'elviracardenas': {
         miembros: [
@@ -328,7 +328,7 @@ var invitados = {
             'Ricardo Silvar Cárdenas',
             'Rodrigo Silvar Cárdenas',
         ],
-        asistencia: 0
+        asistencia: 2
     },
     'jonycardenas': {
         miembros: [
@@ -349,7 +349,7 @@ var invitados = {
             'Erick Aalejandro Ortíz Romo',
             'Iker Sebastian Gómez Llagas (Niño)'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'raquellagas': {
         miembros: [
@@ -374,7 +374,7 @@ var invitados = {
             'Mario Alejandro García Llagas',
             '+ 1 niño'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'angelagonzalez': {
         miembros: [
