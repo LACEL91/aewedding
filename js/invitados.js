@@ -416,6 +416,7 @@ var invitados = {
             'Teresa Luna Tejeda',
             'Rodolfo Lizardi Pérez',
             'Micaela Tejeda Flóres',
+            'Irma Luna Tejeda',
             'Maria Fernanda Lizardi Luna',
             'Irma Lizeth Lizardi Luna',
             'Valeria Lizardi Luna',
