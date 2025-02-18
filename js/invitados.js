@@ -392,7 +392,7 @@ var invitados = {
             'José Miguel Cárdenas Parra',
             'Sebastian Isaac Cárdenas Parra'
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'lupitagarcia': {
         miembros: [
