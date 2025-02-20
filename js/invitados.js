@@ -399,7 +399,7 @@ var invitados = {
             'Guadalupe García',
             'Enrique Navarro',
         ],
-        asistencia: 0
+        asistencia: 1
     },
     'trinirodriguez': {
         miembros: [
@@ -408,7 +408,7 @@ var invitados = {
             'Alondra Figueroa Rodríguez',
             'José Eduardo Figueroa Rodríguez',
         ],
-        asistencia: 0
+        asistencia: 2
     },
 
     'tereluna': {
