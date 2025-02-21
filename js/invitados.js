@@ -220,7 +220,9 @@ var invitados = {
             'Lucía Lizbeth Ochoa Cárdenas',
             'Humberto Ochoa Cárdenas',
             'Osmar Martínez Ochoa',
-            'Elaine Victoria Martínez Ochoa'
+            'Elaine Victoria Martínez Ochoa',
+            'Israel Cocula Barboza',
+            'Daleyza Guadalupe Cocula Barboza'
         ],
         asistencia: 1
     },
@@ -288,9 +290,9 @@ var invitados = {
     'raulcardenas': {
         miembros: [
             'Raúl Cárdenas González',
-            'Veronica Encizo Rodriguez',
-            'Vanessa Cárdenas Encizo',
-            'Raúl Cárdenas Encizo',
+            'Veronica Enciso Rodriguez',
+            'Vanessa Cárdenas Enciso',
+            'Raúl Cárdenas Enciso',
         ],
         asistencia: 1
     },
@@ -332,7 +334,7 @@ var invitados = {
     },
     'jonycardenas': {
         miembros: [
-            'Jonathan Cárdenas Encizo',
+            'Jonathan Cárdenas Enciso',
         ],
         asistencia: 1
     },
@@ -378,7 +380,7 @@ var invitados = {
     },
     'angelagonzalez': {
         miembros: [
-            'éngela Gonzalez Bañuelos',
+            'Ángela Gonzalez Bañuelos',
             'Miguel Torres',
             'Daniela Tórres González',
             'Alejandra Torres González'
